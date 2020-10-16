@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>signup</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+         <li class="active">
+             <a href="index.html">home</a>
+         </li>
+         <li>
+             <a href="signup.html">sign up</a>
+         </li>
+     </ul> 
+    </nav>
+     <br>
+     <main>
+        <p>we have plans that works for everyone.</p>
+        <h1>How to sign up</h1>
+        <form name="signup" class="fonts">
+            <fieldset>
+                <legend>Personal Info</legend>
+
+                <label><span>Name:</span><input name="name" type="text" placeholder="full name" required class="userinfo"/></label>
+
+                <label><span>Address:</span><input name="address" type="text" placeholder="" required class="userinfo"/></label>
+
+                <label><span>Email:</span><input name="email" type="email" placeholder="example@gmail.com" required class="userinfo"/></label>
+
+                <label><span>Phone:</span><input name="phone" type="tel" placeholder="123-456-7890" required class="userinfo" pattern="[0-9-. ]{10,14}"/></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>type of plan</legend>
+
+                <label><input type = "radio" name="free" value = "free"/> free</label><br>
+                <label><input type = "radio" name="good" value = "good"/> good</label><br>
+                <label><input type = "radio" name="better" value = "better"/> better</label><br>
+                <label><input type = "radio" name="best" value = "best"/> best</label><br>
+            </fieldset>
+
+            <input type="submit" value="submit!" class="userbutton">
+
+            <input type="hidden" value="Cleaning Registration" name="subject">
+            <input name="redirect" type="hidden" value="thank.html">
+            
+        </form>
+    </main>
+</body>
+</html>

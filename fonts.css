@@ -1,0 +1,189 @@
+body {
+	font-family: 'Tinos', serif;
+	font-weight: 300;
+	color: #093814;
+	background-color: #ffffff;
+}
+
+h1 {
+	font-family: 'Tinos', serif;
+	font-size: 16px;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+h2 {
+	font-family: 'Tinos', serif;
+	font-size: 16px;
+}
+
+.css-selector {
+	font-family: 'Tinos', serif;
+}
+
+main a {
+	color: #d7283a;
+}
+
+main a:hover {
+	color: #1290cf;
+}
+
+ul.check,
+ol.bulb {
+	margin: 0 0 .8rem 0;
+	padding: 0 0 0 1rem;
+}
+
+ul.check {
+	list-style-type: square;
+}
+
+ol.bulb {
+	list-style-type: circle;
+}
+
+dl dt {
+	margin: 0;
+	font-weight: bolder;
+	padding: 0 0 0 1rem;
+}
+
+dl dd {
+	margin: 0;
+	padding: 0 0 .75rem 2rem;
+}
+
+/*----- Images in Content area -----*/
+
+figure.rightside {
+	float: right;
+	width: 33.3333%;
+	border: 1px solid #4c6c73;
+	margin: 0 0 5px 2%;
+
+}
+
+figure.rightside figcaption {
+	text-align: center;
+	font-size: .7rem;
+	color: #4c6c73;
+}
+
+figure.rightside img {
+	width: 100%;
+}
+
+/*----- IMAGES -----*/
+
+figure.images {
+	float: left;
+	padding-top: 2px;
+	margin: 1rem;
+	border: 1px solid #4c6c73;
+	text-align: center;
+	height: 350px;
+	width: 179px;
+}
+
+figure.images figcaption {
+	font-size: .7rem;
+}
+
+figure.images figcaption span {
+	display: block;
+	font-weight: bold;
+	font-size: .9rem;
+	color: #80045f;
+}
+
+/*Navigation */
+
+nav {
+	background-color: #555;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+nav ul.menu {
+	list-style: none;
+	margin: 0;
+	Padding: 0;
+}
+
+nav ul.menu li {
+	float: left;
+}
+
+nav ul.menu li a {
+	display: block;
+	padding: .5rem 1.5rem;
+	color: #f3f3f3;
+	font-weight: 600;
+	text-decoration: none;
+	border-right: 1px solid #f3f3f3;
+}
+
+nav ul.menu li a:hover {
+	background-color: #f3f3f3;
+	color: #000;
+}
+
+nav ul.menu li.active a {
+	background-color: #d7283a;
+}
+
+/* FORM */
+
+form.fonts fieldset {
+	margin-bottom: 2rem;
+	border-radius: 8px;
+	font-size: .8rem;
+	color: #4c6c73;
+}
+
+form.fonts legend {
+	font-weight: 600;
+	margin-left: 1rem;
+}
+
+form.fonts span {
+	display: block;
+	padding: .8rem 0 0 .3rem;
+}
+
+form.fonts .userinfo {
+	color: #80045f;
+	width: 20rem;
+	border-radius: .6rem;
+	border: 1px solid #cacabb;
+	padding: .4rem;
+}
+
+form.fonts .userbutton {
+	width: 20rem;
+	padding: .8rem;
+	margin-left: 2%;
+	background: #d7283a;
+	color: white;
+	border: 1px solid #666;
+	border-radius: .6rem;
+}
+
+/* footer */
+
+footer {
+	background-color: rgb(9, 56, 20);
+	clear: both;
+}
+
+footer p {
+	text-align: center;
+	padding: .5rem;
+	font-size: .8rem;
+	font-weight: 600;
+	color: white;
+}
+
+.keepOpen {
+	clear: both;
+}
